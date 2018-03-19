@@ -12,6 +12,8 @@ import java.util.concurrent.atomic.LongAdder;
 
 /**
  * Created by Will.Zhang on 2018/3/19 0019 16:40.
+ * 实现一个计数功能, 多个线程同时对count进行累加
+ * 保证最后结果是正确的
  * 此方法是线程安全的
  */
 @Slf4j
