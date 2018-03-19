@@ -3,6 +3,20 @@
  * 主要对Atomic包进行演示
  * 入AtomicInteger, AtomicLong, LongAdder, AtomicXXX等
  *
+ * AtomicBoolean:对boolean类型数据进行操作
+ * AtomicInteger:对int类型数据进行操作
+ * AtomicIntegerArray:对int类型数组数组进行操作
+ * AtomicIntegerFieldUpdater:对指定类中的一个int属性进行更新操作
+ * AtomicLong:对long类型数据进行操作
+ * AtomicLongArray:对long类型数组数组进行操作
+ * AtomicLongFieldUpdater:对指定类中的一个long属性进行更新操作
+ * AtomicReference:对泛型类型数据进行操作
+ * AtomicReferenceArray:对泛型类型数组数组进行操作
+ * AtomicReferenceFieldUpdater:对指定类中的一个泛型属性中进行更新操作
+ * DoubleAdder:对double类型进行操作
+ * LongAdder:对long类型进行操作
+ * AtomicStampedReference:解决cas引发的aba问题(把值从a改成b, 又改回a)
+ *
  * 原子性
  * AtomicXXX它们都是通过CAS来完成原子性的
  * CAS是compareAndSwapXXX的缩写(Unsafe类里面的compareAndSwapInt, compareAndSwapLong等方法, 这都是核心的方法)
