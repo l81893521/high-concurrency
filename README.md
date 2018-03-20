@@ -1,6 +1,6 @@
 # high-concurrency
 ### Atomic包
-[概括说明](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/package-info.java)
+[概括说明](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/atomic/package-info.java)
 
 1.[atomicInteger](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/atomic/AtomicExample1.java)
 
