@@ -44,3 +44,6 @@
 6.[单例模式-饿汉, 线程安全, 使用静态块需要主要的问题](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/singleton/SingletonExample6.java)
 
 7.[单例模式-懒汉, 线程安全, 使用枚举来实现, 推荐写法](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/singleton/SingletonExample7.java)
+
+### 线程安全策略
+1.
