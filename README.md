@@ -53,3 +53,15 @@
 2.[unmodifiable类的使用](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/immutable/ImmutableExample2.java)
 
 3.[Immutable类的使用](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/immutable/ImmutableExample3.java)
+
+4.threadLocal的使用
+
+4.1[概括说明](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/threadLocal/package-info.java)
+
+4.2[ThreadLocal](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/threadLocal/RequestHolder.java)
+
+4.3[HttpFilter](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/HttpFilter.java)
+
+4.4[HttpInterceptor](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/HttpInterceptor.java)
+
+4.5[Controller](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/threadLocal/ThreadLocalController.java)
