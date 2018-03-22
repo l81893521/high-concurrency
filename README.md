@@ -65,3 +65,21 @@
 4.4[HttpInterceptor](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/HttpInterceptor.java)
 
 4.5[Controller](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/threadLocal/ThreadLocalController.java)
+
+5.线程不安全的类与写法
+
+5.1[StringBuilder, 线程不安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/StringExample1.java)
+
+5.2[StringBuffer, 线程安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/StringExample2.java)
+
+5.3[SimpleDateFormat, 线程不安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/DateFormatExample1.java)
+
+5.4[SimpleDateFormat, 线程安全的写法](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/DateFormatExample2.java)
+
+5.5[Joda Time, 线程安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/DateFormatExample3.java)
+
+5.6[ArrayList, 线程不安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/ArrayListExample1.java)
+
+5.7[HashSet, 线程不安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/HashSetExample1.java)
+
+5.8[HashMap, 线程不安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/HashMapExample1.java)
