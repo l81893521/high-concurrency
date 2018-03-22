@@ -46,4 +46,10 @@
 7.[单例模式-懒汉, 线程安全, 使用枚举来实现, 推荐写法](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/singleton/SingletonExample7.java)
 
 ### 线程安全策略
-1.
+[概括说明](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/immutable/package-info.java)
+
+1.[final的基本说明](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/immutable/ImmutableExample1.java)
+
+2.[unmodifiable类的使用](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/immutable/ImmutableExample2.java)
+
+3.[Immutable类的使用](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/immutable/ImmutableExample3.java)
