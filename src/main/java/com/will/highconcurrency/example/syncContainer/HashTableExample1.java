@@ -1,11 +1,11 @@
-package com.will.highconcurrency.example.commonUnsafe;
+package com.will.highconcurrency.example.syncContainer;
 
 import com.will.highconcurrency.annoations.NotThreadSafe;
+import com.will.highconcurrency.annoations.ThreadSafe;
 
 import java.util.HashMap;
-import java.util.HashSet;
+import java.util.Hashtable;
 import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -14,18 +14,15 @@ import java.util.concurrent.Semaphore;
 /**
  * Created by Will.Zhang on 2018/3/22 0022 17:09.
  */
-@NotThreadSafe
-public class HashMapExample1 {
+@ThreadSafe
+public class HashTableExample1 {
 
     //线程数
     public static int clientTotal = 5000;
     //并发数
     public static int threadTotal = 200;
 
-    /*
-    hashMap是线程不安全的
-     */
-    private static Map<Integer, Integer> map = new HashMap<>();
+    private static Map<Integer, Integer> map = new Hashtable<>();
 
     public static void main(String[] args) throws InterruptedException {
         ExecutorService executorService = Executors.newCachedThreadPool();
@@ -48,11 +45,11 @@ public class HashMapExample1 {
 
         countDownLatch.await();
         executorService.shutdown();
-        System.out.println("hashMap size : " + map.size());
+        System.out.println("size : " + map.size());
     }
 
     /**
-     * 往hashMap添加值
+     * 往map添加值
      * @param i
      */
     private static void update(int i){

@@ -48,7 +48,7 @@ public class HashSetExample1 {
 
         countDownLatch.await();
         executorService.shutdown();
-        System.out.println("arrayList size : " + set.size());
+        System.out.println("hashSet size : " + set.size());
     }
 
     /**

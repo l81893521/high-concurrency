@@ -1,11 +1,11 @@
-package com.will.highconcurrency.example.commonUnsafe;
+package com.will.highconcurrency.example.syncContainer;
 
 import com.will.highconcurrency.annoations.NotThreadSafe;
+import com.will.highconcurrency.annoations.ThreadSafe;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -14,8 +14,8 @@ import java.util.concurrent.Semaphore;
 /**
  * Created by Will.Zhang on 2018/3/22 0022 17:09.
  */
-@NotThreadSafe
-public class HashMapExample1 {
+@ThreadSafe
+public class VectorExample1 {
 
     //线程数
     public static int clientTotal = 5000;
@@ -23,9 +23,12 @@ public class HashMapExample1 {
     public static int threadTotal = 200;
 
     /*
-    hashMap是线程不安全的
+    vector是线程同步的
+    虽然说是同步的, 但并不代表是安全的
+    下一个例子会说明
      */
-    private static Map<Integer, Integer> map = new HashMap<>();
+    private static Vector<Integer> vector = new Vector<>();
+    //private static List<Integer> list = new Vector<>();
 
     public static void main(String[] args) throws InterruptedException {
         ExecutorService executorService = Executors.newCachedThreadPool();
@@ -48,14 +51,14 @@ public class HashMapExample1 {
 
         countDownLatch.await();
         executorService.shutdown();
-        System.out.println("hashMap size : " + map.size());
+        System.out.println("size : " + vector.size());
     }
 
     /**
-     * 往hashMap添加值
+     * 往vector添加值
      * @param i
      */
     private static void update(int i){
-        map.put(i, i);
+        vector.add(i);
     }
 }
