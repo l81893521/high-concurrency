@@ -83,3 +83,19 @@
 5.7[HashSet, 线程不安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/HashSetExample1.java)
 
 5.8[HashMap, 线程不安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/commonUnsafe/HashMapExample1.java)
+
+6.同步容器
+
+6.1[vector基本使用](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/syncContainer/VectorExample1.java)
+
+6.2[同步容器并非线程安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/syncContainer/VectorExample2.java)
+
+6.3[遍历集合注意事项](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/syncContainer/VectorExample3.java)
+
+6.4[HashTable, 线程安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/syncContainer/HashTableExample1.java)
+
+6.5[Collections.synchronizedList, 线程安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/syncContainer/CollectionsExample1.java)
+
+6.6[Collections.synchronizedSet, 线程安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/syncContainer/CollectionsExample2.java)
+
+6.7[Collections.synchronizedMap, 线程安全](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/syncContainer/CollectionsExample3.java)
