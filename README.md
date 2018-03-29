@@ -111,3 +111,37 @@
 7.4[ConcurrentSkipListMap](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/concurrent/ConcurrentSkipListMapExample1.java)
 
 7.5[ConcurrentHashMap](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/concurrent/ConcurrentHashMapExample1.java)
+
+### AQS(AbstractQueuedSynchronizer)
+[概括描述](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/package-info.java)
+
+[CountDownLatch使用方式1](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/CountDownLatchExample1.java)
+
+[CountDownLatch使用方式2](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/CountDownLatchExample2.java)
+
+[SemaphoreExample使用方式1](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/SemaphoreExample1.java)
+
+[SemaphoreExample使用方式2](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/SemaphoreExample2.java)
+
+[SemaphoreExample使用方式3](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/SemaphoreExample3.java)
+
+[SemaphoreExample使用方式4](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/SemaphoreExample4.java)
+
+[CyclicBarrierExample使用方式1](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/CyclicBarrierExample1.java)
+
+[CyclicBarrierExample使用方式2](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/CyclicBarrierExample2.java)
+
+[CyclicBarrierExample使用方式3](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/aqs/CyclicBarrierExample3.java)
+
+### Locks
+[概括描述](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/lock/package-info.java)
+
+[Synchronized](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/lock/LockExample1.java)
+
+[ReentrantLock](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/lock/LockExample2.java)
+
+[ReentrantReadWriteLock](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/lock/LockExample3.java)
+
+[StampedLock](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/lock/LockExample4.java)
+
+[ReentrantLock and Condition](https://github.com/l81893521/high-concurrency/blob/master/src/main/java/com/will/highconcurrency/example/lock/LockExample5.java)
