@@ -5,18 +5,22 @@
  *
  * CountDownLatchExample2 : CountDownLatch使用方式2
  *
- * SemaphoreExample1 : SemaphoreExample使用方式1
+ * SemaphoreExample1 : Semaphore使用方式1
  *
- * SemaphoreExample2 : SemaphoreExample使用方式2
+ * SemaphoreExample2 : Semaphore使用方式2
  *
- * SemaphoreExample3 : SemaphoreExample使用方式3
+ * SemaphoreExample3 : Semaphore使用方式3
  *
- * SemaphoreExample4 ; SemaphoreExample使用方式4
+ * SemaphoreExample4 ; Semaphore使用方式4
  *
- * CyclicBarrierExample1 : CyclicBarrierExample使用方式1
+ * CyclicBarrierExample1 : CyclicBarrier使用方式1
  *
- * CyclicBarrierExample2 : CyclicBarrierExample使用方式2
+ * CyclicBarrierExample2 : CyclicBarrier使用方式2
  *
- * CyclicBarrierExample3 : CyclicBarrierExample使用方式3
+ * CyclicBarrierExample3 : CyclicBarrier使用方式3
+ *
+ * FutureExample1 : FutureExample使用方式
+ *
+ * FutureTaskExample1 : FutureTask使用方式
  */
 package com.will.highconcurrency.example.aqs;
